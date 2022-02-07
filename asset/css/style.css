@@ -19,7 +19,6 @@ body{
 }
 
 header{
-    /* background-color: #E579E6; */
     width: 100%;
     height: 150px;
     margin: auto;
@@ -43,7 +42,7 @@ header{
     display: inline-block;
     text-decoration: none;
     color: #cbbcb6;
-    font-weight: 700;
+    font-size: 1.2rem;
 }
   
 a:hover{
@@ -61,6 +60,14 @@ a:hover{
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    position: absolute;
 }
 
 .mini-title{
@@ -81,31 +88,83 @@ a:hover{
     font-size: 1.25rem;
 }
 
-.overlay{
-    background-color: rgba(0, 0, 0, 0.2);
-    width: 100%;
-    height: 600px;
-    display: inline-block;
-}
-
 .paragrafo-2{
     height: 700px;
     width: 100%;
-    background-color: #0185FF;
 }
 
 .sezione-top{
-    background-color: #ABCFE7;
     width: 100%;
     height: 15%;
     margin-bottom: 20px;
+    text-align: left;
+    line-height: 100px;
+    position: relative;
     }
 
+.main-text{
+    position: absolute;
+    float: left;
+    bottom: 15%;
+}
+
+.title {
+    bottom: 15%;
+}
+ 
+.description {
+    top: 15%;
+    color:#cbbcb6;
+}
+
 .sezione-side{ 
-    background-color: #ABCFE7;
     width: 20%;
     height: 78%;
     float: left;
+}
+
+.img-left{
+    position: absolute;
+    float: left;
+    width: 302px;
+    left: 190px;
+    border-radius: 10px;
+   
+}
+
+.overlay2{
+    background-color: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    position: absolute;
+    float: left;
+    width: 300px;
+    height: 300px;
+    left: 190px;
+    border-radius: 10px;
+}
+
+.img-right{
+    position: absolute;
+    float: left;
+    width: 302px;
+    right: 190px;
+    border-radius: 10px;
+}
+
+.overlay3 {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    position: absolute;
+    float: left;
+    width: 300px;
+    height: 300px;
+    right: 190px;
+    border-radius: 10px;
+}
+
+.paragraph-title {
+    margin-top: 320px;
+    margin-bottom: 10px;
 }
 
 .sezione-mid{
@@ -116,6 +175,8 @@ a:hover{
     margin-right: 10px;
     float: left;
 }
+
+
 
 footer {
     width: 100%;
