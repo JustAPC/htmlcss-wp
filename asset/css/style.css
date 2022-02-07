@@ -14,6 +14,7 @@ body{
     width: 80%;
     height: 100vh;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -27,14 +28,37 @@ header{
     height: 100%;
     border-right: 1px solid #ccc3c0;
     padding-right: 2%;
+    margin-bottom: 2%;
 }
 
 .paragrafo-1{
-    background-color: #E1D67A;
+    /* background-color: #E1D67A; */
     width: 100%;
     height: 30vh;
     margin: 1% auto;
 }
+
+.menu-principale li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principale a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #ccc3c0;
+}
+ 
+a:hover {
+    background-color: black;
+    color: white;
+ }
+
+ 
 
 .paragrafo-2{
     height: 45vh;
