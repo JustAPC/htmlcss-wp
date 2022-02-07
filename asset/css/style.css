@@ -32,20 +32,19 @@ header{
     margin-bottom: 20px;
 }
 
-
 .menu-principale li{
     display: inline-block;
     margin: 0;
     padding: 0;
-  }
+}
   
-  .menu-principale a{
+.menu-principale a{
     padding: 10px;
     display: inline-block;
     text-decoration: none;
     color: #cbbcb6;
     font-weight: 700;
-  }
+}
   
 a:hover{
     background-color: black;
@@ -53,10 +52,40 @@ a:hover{
 }
 
 .paragrafo-1{
-    background-color: #E1D67A;
+    display: inline-block;
+    position: relative;
     width: 100%;
-    height: 500px;
+    height: 600px;
     margin: 15px auto;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.mini-title{
+    width: 50%;
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    font-size: 2rem;
+}
+
+.mini-description {
+    width: 50%;
+    color: white;
+    position: absolute;
+    bottom: 12%;
+    left: 5%;
+    font-size: 1.25rem;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 600px;
+    display: inline-block;
 }
 
 .paragrafo-2{
